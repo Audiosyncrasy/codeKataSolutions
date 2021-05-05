@@ -9,3 +9,16 @@ The exercise is to experiment with various models for representing money and pri
 
 #### Goal:
 Practice a looser style of experimental modelling. Look for as many different ways of handling the issues as possible. Consider the various tradeoffs of each. What techniques are best for exploring these models? For recording them? How can you validate a model is reasonable?
+
+#### Discussion:
+
+**Outline**
+
+1. determine the simplest model first
+2. add more complicated strategies
+3. apply to *n* strategies
+4. refactor
+
+The most basic pricing model looks something like this:
+
+Price = ItemCount x UnitCost
